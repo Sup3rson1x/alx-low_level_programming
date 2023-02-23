@@ -13,7 +13,7 @@ void times_table(void)
 	 for (x = 0; x <= 9; x++)
 	 {
 
-	 	for (y = 0; y <= 9; y++)
+      	 	for (y = 0; y <= 9; y++)
 	 	{
          		z = x * y;
 	 		if (z > 9)
@@ -25,17 +25,17 @@ void times_table(void)
 	 			_putchar(d + '0');
 	 			_putchar(u + '0');
          		}
-	 		else
+			else
 	 		{
-	 			if (y != 0)
+	 		if (y != 0)
 	 			{
 	 				_putchar(44);
 	 				_putchar(32);
 	 				_putchar(32);
 	 			}
-	 			_putchar(z + '0');
-	 		}
-	 }
+	 				_putchar(z + '0');
+	        }
+         }
 	 _putchar('\n');
 	}
 }
