@@ -5,7 +5,6 @@
  * @n: says how many backslash this functions is going to print
  * Return: the respective cantity of backslash
  */
-
 void print_diagonal(int n)
 {
 	int i, j;
@@ -18,7 +17,7 @@ void print_diagonal(int n)
 			{
 				if (j <= i)
 				{
-					
+					if (j == i)
 						_putchar('\\');
 					else
 						_putchar(' ');
